@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!-- saved from url=(0085)file:///C:/Users/spoor/Downloads/FoodNow%20%E2%80%93%20Low-Fidelity%20Wireframes.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Food Delivery App – Low-Fidelity Wireframes</title>
+<style>
+:root{--bg:#f4f4f4;--ph:#fff;--ln:#888;--tx:#222;--fill:#e2e2e2;--ac:#bbb;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1b1b1b;--ph:#262626;--ln:#777;--tx:#eee;--fill:#3a3a3a;--ac:#555}}
+:root[data-theme="dark"]{--bg:#1b1b1b;--ph:#262626;--ln:#777;--tx:#eee;--fill:#3a3a3a;--ac:#555}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:14px/1.4 system-ui,Arial,sans-serif;padding:20px}
+h1{font-size:22px;margin:0 0 4px}p.s{margin:0 0 20px;color:var(--ln)}
+.g{display:flex;flex-wrap:wrap;gap:24px}
+.c{width:250px}.c h2{font-size:13px;margin:0 0 6px;text-transform:uppercase;letter-spacing:.05em}
+.ph{height:500px;background:var(--ph);border:2px solid var(--ln);border-radius:22px;padding:12px;display:flex;flex-direction:column;gap:8px;overflow:hidden}
+.b{border:1.5px solid var(--ln);border-radius:6px;padding:6px 8px;font-size:12px}
+.f{background:var(--fill)}
+.x{background:var(--fill);border:1.5px solid var(--ln);display:flex;align-items:center;justify-content:center;color:var(--ln);font-size:11px;border-radius:6px}
+.r{display:flex;gap:6px;align-items:center}.sp{justify-content:space-between}
+.btn{background:var(--ac);border:1.5px solid var(--ln);border-radius:6px;text-align:center;padding:9px;font-weight:600;font-size:12px}
+.nav{margin-top:auto;display:flex;justify-content:space-around;border-top:1.5px solid var(--ln);padding-top:8px;font-size:11px}
+.chip{border:1.5px solid var(--ln);border-radius:12px;padding:2px 9px;font-size:11px;white-space:nowrap}
+.sm{font-size:11px;color:var(--ln)}
+.n{margin-top:6px;font-size:12px;color:var(--ln)}
+</style></head><body>
+<h1>FoodNow – Food Delivery App</h1>
+<p class="s">Low-fidelity mobile wireframes · 6 core screens · 390×844 frames scaled down</p>
+<div class="g">
+
+<div class="c"><h2>1 · Home</h2><div class="ph">
+<div class="r sp"><b>📍 Deliver to: Home ▾</b><span>🔔</span></div>
+<div class="b f">🔍 Search food or restaurants</div>
+<div class="x" style="height:70px">Promo banner</div>
+<div class="r"><span class="chip">Pizza</span><span class="chip">Burgers</span><span class="chip">Biryani</span><span class="chip">+</span></div>
+<b>Nearby restaurants</b>
+<div class="r"><div class="x" style="width:70px;height:60px">img</div><div><b>Restaurant A</b><div class="sm">★4.5 · 25 min · ₹₹</div></div></div>
+<div class="r"><div class="x" style="width:70px;height:60px">img</div><div><b>Restaurant B</b><div class="sm">★4.2 · 30 min · ₹</div></div></div>
+<div class="nav"><span>Home</span><span>Search</span><span>Orders</span><span>Profile</span></div></div>
+<div class="n">Entry point: location, search, categories, restaurant list.</div></div>
+
+<div class="c"><h2>2 · Restaurant &amp; Menu</h2><div class="ph">
+<div class="r sp"><span>←</span><span>♡ ⋮</span></div>
+<div class="x" style="height:80px">Cover image</div>
+<b>Restaurant A</b><div class="sm">★4.5 · 25 min · Free delivery</div>
+<div class="r"><span class="chip">Starters</span><span class="chip">Mains</span><span class="chip">Drinks</span></div>
+<div class="r sp"><div><b>Dish name</b><div class="sm">Short description</div>₹220</div><div class="x" style="width:64px;height:64px">img</div></div>
+<div class="r sp"><div><b>Dish name</b><div class="sm">Short description</div>₹180</div><div class="x" style="width:64px;height:64px">img</div></div>
+<div class="btn" style="margin-top:auto">View cart · 2 items · ₹400</div></div>
+<div class="n">Sticky category tabs; sticky cart bar.</div></div>
+
+<div class="c"><h2>3 · Item Detail</h2><div class="ph">
+<div class="r sp"><span>✕</span></div>
+<div class="x" style="height:120px">Dish image</div>
+<b>Dish name</b><div class="sm">Description, ingredients, allergens</div>
+<b>Size</b><div class="b">○ Regular &nbsp; ○ Large (+₹60)</div>
+<b>Add-ons</b><div class="b">☐ Extra cheese (+₹30)</div>
+<div class="r sp" style="margin-top:auto"><div class="b">− 1 +</div><div class="btn" style="flex:1">Add · ₹220</div></div></div>
+<div class="n">Bottom sheet for options and quantity.</div></div>
+
+<div class="c"><h2>4 · Cart</h2><div class="ph">
+<div class="r"><span>←</span><b>Your cart</b></div>
+<div class="b r sp"><span>Dish name ×1</span><span>₹220</span></div>
+<div class="b r sp"><span>Dish name ×2</span><span>₹360</span></div>
+<div class="b f">Add cooking instructions…</div>
+<div class="b f">🏷 Apply coupon</div>
+<div class="b"><div class="r sp"><span>Subtotal</span><span>₹580</span></div><div class="r sp"><span>Delivery</span><span>₹30</span></div><div class="r sp"><span>Taxes</span><span>₹29</span></div><hr><div class="r sp"><b>Total</b><b>₹639</b></div></div>
+<div class="btn" style="margin-top:auto">Proceed to checkout</div></div>
+<div class="n">Editable items, coupon, price breakdown.</div></div>
+
+<div class="c"><h2>5 · Checkout</h2><div class="ph">
+<div class="r"><span>←</span><b>Checkout</b></div>
+<div class="b"><b>Delivery address</b><div class="sm">Home – 12 Main St ▸ Change</div></div>
+<div class="b"><b>Delivery time</b><div class="sm">○ Now (25–30 min) ○ Schedule</div></div>
+<div class="b"><b>Payment</b><div class="sm">○ UPI &nbsp;○ Card &nbsp;○ Cash</div></div>
+<div class="b"><b>Contact-free delivery</b> ☐</div>
+<div class="btn" style="margin-top:auto">Place order · ₹639</div></div>
+<div class="n">Single page: address, time, payment.</div></div>
+
+<div class="c"><h2>6 · Order Tracking</h2><div class="ph">
+<div class="r"><span>←</span><b>Order #1042</b></div>
+<div class="x" style="height:150px">Live map</div>
+<b>Arriving in 18 min</b>
+<div class="b">● Order confirmed<br>● Preparing<br>○ Out for delivery<br>○ Delivered</div>
+<div class="b r sp"><div class="r"><div class="x" style="width:36px;height:36px;border-radius:50%">DP</div>Rider name</div><span>📞 💬</span></div>
+<div class="btn" style="margin-top:auto">Need help?</div></div>
+<div class="n">Status stepper, live map, rider contact.</div></div>
+
+</div>
+</body></html>
